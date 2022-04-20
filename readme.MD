@@ -5,16 +5,16 @@ A nodejs package for send mail from nodejs server easly .
 ## Installation
 
 ```
-npm install Mail-sender
+npm install nodemailer
 ```
 ```
-yarn install Mail-sender
+yarn install nodemailer
 ```
 ## Usage
 
 ```javascript
 // REQUIRE THE PACKAGE
-const mailSender = require('Mail-sender');
+const mailSender = require('nodemailer');
 // CONFIG
 const port = 587 ;
 const username = 'your smtp server username ' ;
