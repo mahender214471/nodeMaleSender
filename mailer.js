@@ -17,12 +17,17 @@ class mailer {
     }
 
     // METHOD FOR SEND MAIL 
-    send ( to , subject , html , callback ) {
-        const mailOptions = {
-            from:this.username , to , subject , html 
-        };
-
-        this.transporter.sendMail(mailOptions , callback );
+   async send ( to , from , subject , html) {
+         try{
+            const mailOptions = {
+                from:from , to , subject , html 
+            };
+            const info = await this.transporter.sendMail( mailOptions );
+            return info ;
+         }
+         catch ( err ){
+              throw err
+         }
     }
 }
 module.exports = mailer ;
