@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "nodemailer": "^6.7.2"
-  }
+  },
+  "name": "nodemailer",
+  "description": "A nodejs package for send mail from nodejs server easly .",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahender214471/nodeMaleSender.git"
+  },
+  "author": "mahender rajput",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahender214471/nodeMaleSender/issues"
+  },
+  "homepage": "https://github.com/mahender214471/nodeMaleSender#readme"
 }
