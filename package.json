@@ -2,7 +2,7 @@
   "dependencies": {
     "nodemailer": "^6.7.2"
   },
-  "name": "@mahender214471/nodemailer",
+  "name": "nodemailer",
   "description": "A nodejs package for send mail from nodejs server easly .",
   "version": "1.0.0",
   "main": "index.js",
